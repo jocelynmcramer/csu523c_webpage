@@ -1,5 +1,28 @@
 project:
-  title: "csu523c_webpage"
+  type: website
+  output-dir: docs
+
+website:
+  title: "Colorado State University Course Webpage"
+  navbar:
+    left:
+      - href: csu523c_webpage.qmd
+        text: Home
+      - href: lab-01.qmd
+        text: Lab 1
+      - href: lab-02.qmd
+        text: Lab 2
+      - href: lab-03.qmd
+        text: Lab 3
+      - href: lab-05.qmd
+        text: Lab 5
+      - href: lab-06.qmd
+        text: Lab 6
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
 
 editor: visual
-

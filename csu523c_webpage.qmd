@@ -1,11 +1,45 @@
 ---
-title: "csu523c_webpage"
+title: "CSU 523C Course"
+format:
+  html:
+    theme: minty
 ---
 
-## Quarto
+# GitHub Projects
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This website contains assignments completed for the CSU 523C course requirements.
 
-```{r}
-1 + 1
-```
+## Labs
+
+- [Lab 1](lab-01.html)
+
+    - In this lab USGS river gauge data along the Colorado River Basin, United States was compiled and 
+      modeled.
+    
+- [Lab 2](lab-02.html)
+
+    - This week's lab focused on displaying U.S. population data based on the proximity the cities are to
+      international and national borders.
+    
+- [Lab 3](lab-03.html)
+
+    - This Lab focused on processing large-scale dam inventory data from across the United States. We 
+      evaluated different tessellated surfaces to reveal how the data interpretation differed amongst         the methods.
+      
+- Lab 4
+
+    - In Lab 4 we analyzed flood data near Palo, Iowa using different data visualization methods.
+
+- [Lab 5](lab-05.html) 
+
+    - Lab 5 involved modeling streamflow data using differnt modeling methods and parameters from the         watersheds.
+
+- [Lab 6](lab-06.html)
+
+    - In this lab we evaluated and modeled streamflow along the Cache la Poudre River.
+      
+## Contact
+
+Jocelyn Cramer, jocelyn.cramer@colostate.edu, Master's student - Watershed Science. [My GitHub](https://github.com/jocelynmcramer)
+
+![](IMG_1738.jpg){width=100px}
