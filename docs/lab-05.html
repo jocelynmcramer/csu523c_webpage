@@ -1971,13 +1971,10 @@ Attaching package: 'ape'</code></pre>
 <pre><code>There were issues with some computations   A: x1   B: x1</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x3   B: x2</code></pre>
+<pre><code>There were issues with some computations   A: x12   B: x8</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x13   B: x9</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x25   B: x17</code></pre>
+<pre><code>There were issues with some computations   A: x22   B: x15</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
@@ -2000,7 +1997,52 @@ Attaching package: 'ape'</code></pre>
 <pre><code>There were issues with some computations   A: x10   B: x7</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x25   B: x17</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code></code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>→ A | warning: NaNs produced</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>→ B | warning: Column `geol_permeability` returned NaN, because variance cannot be calculated
+               and scaling cannot be used. Consider avoiding `Inf` or `-Inf` values and/or
+               setting `na_rm = TRUE` before normalizing.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x4   B: x3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x19   B: x13</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code></code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb137"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb137-1"><a href="#cb137-1" aria-hidden="true" tabindex="-1"></a>Workflow_Map <span class="ot">&lt;-</span> Workflow_2 <span class="sc">|&gt;</span></span>
+<span id="cb137-2"><a href="#cb137-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">workflow_map</span>(<span class="st">"fit_resamples"</span>, <span class="at">resamples =</span> CV_2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>→ A | warning: NaNs produced</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>→ B | warning: Column `geol_permeability` returned NaN, because variance cannot be calculated
+               and scaling cannot be used. Consider avoiding `Inf` or `-Inf` values and/or
+               setting `na_rm = TRUE` before normalizing.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x1   B: x1</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x9   B: x6</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x18   B: x12</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x28   B: x19</code></pre>
@@ -2020,44 +2062,10 @@ Attaching package: 'ape'</code></pre>
                setting `na_rm = TRUE` before normalizing.</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1   B: x1</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x13   B: x9</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x22   B: x15</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code></code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb140"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb140-1"><a href="#cb140-1" aria-hidden="true" tabindex="-1"></a>Workflow_Map <span class="ot">&lt;-</span> Workflow_2 <span class="sc">|&gt;</span></span>
-<span id="cb140-2"><a href="#cb140-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">workflow_map</span>(<span class="st">"fit_resamples"</span>, <span class="at">resamples =</span> CV_2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>→ A | warning: NaNs produced</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>→ B | warning: Column `geol_permeability` returned NaN, because variance cannot be calculated
-               and scaling cannot be used. Consider avoiding `Inf` or `-Inf` values and/or
-               setting `na_rm = TRUE` before normalizing.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1   B: x1</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x4   B: x3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x13   B: x9</code></pre>
+<pre><code>There were issues with some computations   A: x6   B: x4</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x19   B: x13</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x25   B: x17</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
@@ -2080,33 +2088,7 @@ Attaching package: 'ape'</code></pre>
 <pre><code>There were issues with some computations   A: x10   B: x7</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x19   B: x13</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x28   B: x19</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code></code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>→ A | warning: NaNs produced</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>→ B | warning: Column `geol_permeability` returned NaN, because variance cannot be calculated
-               and scaling cannot be used. Consider avoiding `Inf` or `-Inf` values and/or
-               setting `na_rm = TRUE` before normalizing.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x4   B: x3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x13   B: x9</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x22   B: x15</code></pre>
+<pre><code>There were issues with some computations   A: x25   B: x17</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x30   B: x20</code></pre>
@@ -2117,7 +2099,7 @@ Attaching package: 'ape'</code></pre>
 </div>
 <p>Compare Models</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb165"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb165-1"><a href="#cb165-1" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(Workflow_Random)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb159"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb159-1"><a href="#cb159-1" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(Workflow_Random)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2125,7 +2107,7 @@ Attaching package: 'ape'</code></pre>
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb166"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb166-1"><a href="#cb166-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rank_results</span>(Workflow_Random, <span class="at">rank_metric =</span> <span class="st">"rsq"</span>, <span class="at">select_best =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb160"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb160-1"><a href="#cb160-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rank_results</span>(Workflow_Random, <span class="at">rank_metric =</span> <span class="st">"rsq"</span>, <span class="at">select_best =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 9
   wflow_id .config         .metric  mean std_err     n preprocessor model   rank
@@ -2137,7 +2119,7 @@ Attaching package: 'ape'</code></pre>
 5 rec_lm   pre0_mod0_post0 rmse    0.416 0.0263     10 recipe       linea…     3
 6 rec_lm   pre0_mod0_post0 rsq     0.877 0.0147     10 recipe       linea…     3</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb168"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb168-1"><a href="#cb168-1" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(Workflow_Map)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb162"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb162-1"><a href="#cb162-1" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(Workflow_Map)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2145,7 +2127,7 @@ Attaching package: 'ape'</code></pre>
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb169"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb169-1"><a href="#cb169-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rank_results</span>(Workflow_Map, <span class="at">rank_metric =</span> <span class="st">"rsq"</span>, <span class="at">select_best =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb163"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb163-1"><a href="#cb163-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rank_results</span>(Workflow_Map, <span class="at">rank_metric =</span> <span class="st">"rsq"</span>, <span class="at">select_best =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 9
   wflow_id .config         .metric  mean std_err     n preprocessor model   rank
@@ -2173,23 +2155,23 @@ Attaching package: 'ape'</code></pre>
 </ul>
 <p>Tag</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb171"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb171-1"><a href="#cb171-1" aria-hidden="true" tabindex="-1"></a>Tuned <span class="ot">&lt;-</span> <span class="fu">rand_forest</span>(<span class="at">mtry =</span> <span class="fu">tune</span>(), <span class="at">min_n =</span> <span class="fu">tune</span>(), <span class="at">trees =</span> <span class="dv">500</span>) <span class="sc">|&gt;</span></span>
-<span id="cb171-2"><a href="#cb171-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_engine</span>(<span class="st">"ranger"</span>, <span class="at">importance =</span> <span class="st">"impurity"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb171-3"><a href="#cb171-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_mode</span>(<span class="st">"regression"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb165"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb165-1"><a href="#cb165-1" aria-hidden="true" tabindex="-1"></a>Tuned <span class="ot">&lt;-</span> <span class="fu">rand_forest</span>(<span class="at">mtry =</span> <span class="fu">tune</span>(), <span class="at">min_n =</span> <span class="fu">tune</span>(), <span class="at">trees =</span> <span class="dv">500</span>) <span class="sc">|&gt;</span></span>
+<span id="cb165-2"><a href="#cb165-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_engine</span>(<span class="st">"ranger"</span>, <span class="at">importance =</span> <span class="st">"impurity"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb165-3"><a href="#cb165-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_mode</span>(<span class="st">"regression"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Build Named Grid</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb172"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb172-1"><a href="#cb172-1" aria-hidden="true" tabindex="-1"></a>NGrid <span class="ot">&lt;-</span> <span class="fu">grid_regular</span>(<span class="fu">mtry</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">12</span>)), <span class="fu">min_n</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">20</span>)), <span class="at">levels =</span> <span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb166"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb166-1"><a href="#cb166-1" aria-hidden="true" tabindex="-1"></a>NGrid <span class="ot">&lt;-</span> <span class="fu">grid_regular</span>(<span class="fu">mtry</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">12</span>)), <span class="fu">min_n</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">20</span>)), <span class="at">levels =</span> <span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Run Spatial Resamples</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb173"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb173-1"><a href="#cb173-1" aria-hidden="true" tabindex="-1"></a>Tuned_Workflow <span class="ot">&lt;-</span> <span class="fu">workflow</span>() <span class="sc">|&gt;</span></span>
-<span id="cb173-2"><a href="#cb173-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_recipe</span>(Recipe_Q4) <span class="sc">|&gt;</span></span>
-<span id="cb173-3"><a href="#cb173-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_model</span>(Tuned)</span>
-<span id="cb173-4"><a href="#cb173-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb173-5"><a href="#cb173-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb173-6"><a href="#cb173-6" aria-hidden="true" tabindex="-1"></a>Tuned_Grid <span class="ot">&lt;-</span> <span class="fu">tune_grid</span>(Tuned_Workflow, <span class="at">resamples =</span> CV_2, <span class="at">grid =</span> NGrid,</span>
-<span id="cb173-7"><a href="#cb173-7" aria-hidden="true" tabindex="-1"></a>                             <span class="at">control =</span> <span class="fu">control_grid</span>(<span class="at">save_pred =</span> <span class="cn">TRUE</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb167"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb167-1"><a href="#cb167-1" aria-hidden="true" tabindex="-1"></a>Tuned_Workflow <span class="ot">&lt;-</span> <span class="fu">workflow</span>() <span class="sc">|&gt;</span></span>
+<span id="cb167-2"><a href="#cb167-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_recipe</span>(Recipe_Q4) <span class="sc">|&gt;</span></span>
+<span id="cb167-3"><a href="#cb167-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_model</span>(Tuned)</span>
+<span id="cb167-4"><a href="#cb167-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb167-5"><a href="#cb167-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb167-6"><a href="#cb167-6" aria-hidden="true" tabindex="-1"></a>Tuned_Grid <span class="ot">&lt;-</span> <span class="fu">tune_grid</span>(Tuned_Workflow, <span class="at">resamples =</span> CV_2, <span class="at">grid =</span> NGrid,</span>
+<span id="cb167-7"><a href="#cb167-7" aria-hidden="true" tabindex="-1"></a>                             <span class="at">control =</span> <span class="fu">control_grid</span>(<span class="at">save_pred =</span> <span class="cn">TRUE</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>→ A | warning: NaNs produced</code></pre>
 </div>
@@ -2202,142 +2184,94 @@ Attaching package: 'ape'</code></pre>
 <pre><code>There were issues with some computations   A: x1   B: x1</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x15   B: x5</code></pre>
+<pre><code>There were issues with some computations   A: x21   B: x6</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x45   B: x9</code></pre>
+<pre><code>There were issues with some computations   A: x91   B: x13</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x120   B: x15</code></pre>
+<pre><code>There were issues with some computations   A: x253   B: x22</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x231   B: x21</code></pre>
+<pre><code>There were issues with some computations   A: x361   B: x30</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x354   B: x28</code></pre>
+<pre><code>There were issues with some computations   A: x406   B: x36</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x372   B: x32</code></pre>
+<pre><code>There were issues with some computations   A: x522   B: x44</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x417   B: x37</code></pre>
+<pre><code>There were issues with some computations   A: x703   B: x53</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x504   B: x43</code></pre>
+<pre><code>There were issues with some computations   A: x723   B: x58</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x676   B: x51</code></pre>
+<pre><code>There were issues with some computations   A: x822   B: x67</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x712   B: x56</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x738   B: x60</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x807   B: x66</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x912   B: x72</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1054   B: x79</code></pre>
+<pre><code>There were issues with some computations   A: x1027   B: x77</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x1068   B: x83</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1108   B: x88</code></pre>
+<pre><code>There were issues with some computations   A: x1119   B: x89</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1189   B: x94</code></pre>
+<pre><code>There were issues with some computations   A: x1284   B: x99</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1353   B: x102</code></pre>
+<pre><code>There were issues with some computations   A: x1414   B: x108</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1410   B: x107</code></pre>
+<pre><code>There were issues with some computations   A: x1449   B: x113</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1425   B: x110</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1470   B: x115</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1557   B: x121</code></pre>
+<pre><code>There were issues with some computations   A: x1540   B: x120</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x1729   B: x129</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1765   B: x134</code></pre>
+<pre><code>There were issues with some computations   A: x1776   B: x136</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1783   B: x137</code></pre>
+<pre><code>There were issues with some computations   A: x1821   B: x141</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1846   B: x143</code></pre>
+<pre><code>There were issues with some computations   A: x1986   B: x151</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x1945   B: x149</code></pre>
+<pre><code>There were issues with some computations   A: x2112   B: x159</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2106   B: x156</code></pre>
+<pre><code>There were issues with some computations   A: x2142   B: x164</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2116   B: x160</code></pre>
+<pre><code>There were issues with some computations   A: x2242   B: x172</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2151   B: x165</code></pre>
+<pre><code>There were issues with some computations   A: x2431   B: x181</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2211   B: x170</code></pre>
+<pre><code>There were issues with some computations   A: x2478   B: x188</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2316   B: x176</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2458   B: x183</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2472   B: x187</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2512   B: x192</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2577   B: x197</code></pre>
+<pre><code>There were issues with some computations   A: x2535   B: x194</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x2710   B: x204</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2808   B: x208</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2814   B: x211</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2823   B: x213</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2836   B: x215</code></pre>
+<pre><code>There were issues with some computations   A: x2818   B: x212</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x2863   B: x218</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2899   B: x221</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x2944   B: x224</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x3018   B: x228</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x3108   B: x232</code></pre>
+<pre><code>There were issues with some computations   A: x2979   B: x226</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x3160   B: x235</code></pre>
@@ -2346,10 +2280,13 @@ Attaching package: 'ape'</code></pre>
 <pre><code>There were issues with some computations   A: x3187   B: x241</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x3295   B: x250</code></pre>
+<pre><code>There were issues with some computations   A: x3279   B: x249</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>There were issues with some computations   A: x3484   B: x259</code></pre>
+<pre><code>There were issues with some computations   A: x3369   B: x254</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>There were issues with some computations   A: x3459   B: x258</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x3510   B: x260</code></pre>
@@ -2360,7 +2297,7 @@ Attaching package: 'ape'</code></pre>
 </div>
 <p>Tuned Landscape</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb229"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb229-1"><a href="#cb229-1" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(Tuned_Grid)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb208"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb208-1"><a href="#cb208-1" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(Tuned_Grid)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2368,7 +2305,7 @@ Attaching package: 'ape'</code></pre>
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb230"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb230-1"><a href="#cb230-1" aria-hidden="true" tabindex="-1"></a><span class="fu">show_best</span>(Tuned_Grid, <span class="at">metric =</span> <span class="st">"rsq"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb209"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb209-1"><a href="#cb209-1" aria-hidden="true" tabindex="-1"></a><span class="fu">show_best</span>(Tuned_Grid, <span class="at">metric =</span> <span class="st">"rsq"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 8
    mtry min_n .metric .estimator  mean     n std_err .config         
@@ -2379,8 +2316,8 @@ Attaching package: 'ape'</code></pre>
 4     4    11 rsq     standard   0.875    10  0.0201 pre0_mod08_post0
 5     4    15 rsq     standard   0.874    10  0.0200 pre0_mod09_post0</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb232"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb232-1"><a href="#cb232-1" aria-hidden="true" tabindex="-1"></a>Tuned_Best <span class="ot">&lt;-</span> <span class="fu">select_best</span>(Tuned_Grid, <span class="at">metric =</span> <span class="st">"rsq"</span>)</span>
-<span id="cb232-2"><a href="#cb232-2" aria-hidden="true" tabindex="-1"></a>Tuned_Best</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb211"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb211-1"><a href="#cb211-1" aria-hidden="true" tabindex="-1"></a>Tuned_Best <span class="ot">&lt;-</span> <span class="fu">select_best</span>(Tuned_Grid, <span class="at">metric =</span> <span class="st">"rsq"</span>)</span>
+<span id="cb211-2"><a href="#cb211-2" aria-hidden="true" tabindex="-1"></a>Tuned_Best</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 1 × 3
    mtry min_n .config         
@@ -2401,9 +2338,9 @@ Attaching package: 'ape'</code></pre>
 </ul>
 <p>Plot</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb234"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb234-1"><a href="#cb234-1" aria-hidden="true" tabindex="-1"></a>Workflow_Final <span class="ot">&lt;-</span> <span class="fu">finalize_workflow</span>(Tuned_Workflow, Tuned_Best)</span>
-<span id="cb234-2"><a href="#cb234-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb234-3"><a href="#cb234-3" aria-hidden="true" tabindex="-1"></a>Workflow_Fit <span class="ot">&lt;-</span> <span class="fu">fit</span>(Workflow_Final, <span class="at">data =</span> Camels_Train)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb213"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb213-1"><a href="#cb213-1" aria-hidden="true" tabindex="-1"></a>Workflow_Final <span class="ot">&lt;-</span> <span class="fu">finalize_workflow</span>(Tuned_Workflow, Tuned_Best)</span>
+<span id="cb213-2"><a href="#cb213-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb213-3"><a href="#cb213-3" aria-hidden="true" tabindex="-1"></a>Workflow_Fit <span class="ot">&lt;-</span> <span class="fu">fit</span>(Workflow_Final, <span class="at">data =</span> Camels_Train)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning in bake.step_log(x$steps[[i]], new_data = training): NaNs produced</code></pre>
 </div>
@@ -2412,9 +2349,9 @@ Attaching package: 'ape'</code></pre>
 and scaling cannot be used. Consider avoiding `Inf` or `-Inf` values and/or
 setting `na_rm = TRUE` before normalizing.</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb237"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb237-1"><a href="#cb237-1" aria-hidden="true" tabindex="-1"></a>Workflow_Fit <span class="sc">|&gt;</span></span>
-<span id="cb237-2"><a href="#cb237-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">extract_fit_parsnip</span>() <span class="sc">|&gt;</span></span>
-<span id="cb237-3"><a href="#cb237-3" aria-hidden="true" tabindex="-1"></a>  vip<span class="sc">::</span><span class="fu">vip</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb216"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb216-1"><a href="#cb216-1" aria-hidden="true" tabindex="-1"></a>Workflow_Fit <span class="sc">|&gt;</span></span>
+<span id="cb216-2"><a href="#cb216-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">extract_fit_parsnip</span>() <span class="sc">|&gt;</span></span>
+<span id="cb216-3"><a href="#cb216-3" aria-hidden="true" tabindex="-1"></a>  vip<span class="sc">::</span><span class="fu">vip</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2442,7 +2379,7 @@ setting `na_rm = TRUE` before normalizing.</code></pre>
 </ul>
 <p>Finalize</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb238"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb238-1"><a href="#cb238-1" aria-hidden="true" tabindex="-1"></a>Workflow_Final</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb217"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb217-1"><a href="#cb217-1" aria-hidden="true" tabindex="-1"></a>Workflow_Final</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>══ Workflow ════════════════════════════════════════════════════════════════════
 Preprocessor: Recipe
@@ -2473,7 +2410,7 @@ Computational engine: ranger </code></pre>
 </div>
 <p>Train</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb240"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb240-1"><a href="#cb240-1" aria-hidden="true" tabindex="-1"></a>Fit_Final <span class="ot">&lt;-</span> <span class="fu">last_fit</span>(Workflow_Final, <span class="at">split =</span> Camels_Split_2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb219"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb219-1"><a href="#cb219-1" aria-hidden="true" tabindex="-1"></a>Fit_Final <span class="ot">&lt;-</span> <span class="fu">last_fit</span>(Workflow_Final, <span class="at">split =</span> Camels_Split_2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>→ A | warning: NaNs produced</code></pre>
 </div>
@@ -2494,7 +2431,7 @@ Computational engine: ranger </code></pre>
 </div>
 <p>Test-Set Performance</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb246"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb246-1"><a href="#cb246-1" aria-hidden="true" tabindex="-1"></a><span class="fu">collect_metrics</span>(Fit_Final)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb225"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb225-1"><a href="#cb225-1" aria-hidden="true" tabindex="-1"></a><span class="fu">collect_metrics</span>(Fit_Final)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 2 × 4
   .metric .estimator .estimate .config        
@@ -2502,22 +2439,22 @@ Computational engine: ranger </code></pre>
 1 rmse    standard       0.371 pre0_mod0_post0
 2 rsq     standard       0.889 pre0_mod0_post0</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb248"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb248-1"><a href="#cb248-1" aria-hidden="true" tabindex="-1"></a>Prediction_Final <span class="ot">&lt;-</span> <span class="fu">collect_predictions</span>(Fit_Final)</span>
-<span id="cb248-2"><a href="#cb248-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb248-3"><a href="#cb248-3" aria-hidden="true" tabindex="-1"></a>Test_Info <span class="ot">&lt;-</span> <span class="fu">assessment</span>(Camels_Split_2) <span class="sc">|&gt;</span></span>
-<span id="cb248-4"><a href="#cb248-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(aridity)</span>
-<span id="cb248-5"><a href="#cb248-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb248-6"><a href="#cb248-6" aria-hidden="true" tabindex="-1"></a>Prediction_Final <span class="ot">&lt;-</span> <span class="fu">bind_cols</span>(Prediction_Final, Test_Info)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb227"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb227-1"><a href="#cb227-1" aria-hidden="true" tabindex="-1"></a>Prediction_Final <span class="ot">&lt;-</span> <span class="fu">collect_predictions</span>(Fit_Final)</span>
+<span id="cb227-2"><a href="#cb227-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb227-3"><a href="#cb227-3" aria-hidden="true" tabindex="-1"></a>Test_Info <span class="ot">&lt;-</span> <span class="fu">assessment</span>(Camels_Split_2) <span class="sc">|&gt;</span></span>
+<span id="cb227-4"><a href="#cb227-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(aridity)</span>
+<span id="cb227-5"><a href="#cb227-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb227-6"><a href="#cb227-6" aria-hidden="true" tabindex="-1"></a>Prediction_Final <span class="ot">&lt;-</span> <span class="fu">bind_cols</span>(Prediction_Final, Test_Info)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Plot</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb249"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb249-1"><a href="#cb249-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(Prediction_Final, <span class="fu">aes</span>(<span class="at">x =</span> logQmean, <span class="at">y =</span> .pred, <span class="at">color =</span> aridity)) <span class="sc">+</span></span>
-<span id="cb249-2"><a href="#cb249-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb249-3"><a href="#cb249-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>() <span class="sc">+</span></span>
-<span id="cb249-4"><a href="#cb249-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>() <span class="sc">+</span></span>
-<span id="cb249-5"><a href="#cb249-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_linedraw</span>() <span class="sc">+</span></span>
-<span id="cb249-6"><a href="#cb249-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Observed vs Predicted Log Mean Streamflow"</span>, <span class="at">x =</span> <span class="st">"Log Observed Flow"</span>, <span class="at">y =</span> <span class="st">"Log Predicted Flow"</span>,</span>
-<span id="cb249-7"><a href="#cb249-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Aridity"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb228"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb228-1"><a href="#cb228-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(Prediction_Final, <span class="fu">aes</span>(<span class="at">x =</span> logQmean, <span class="at">y =</span> .pred, <span class="at">color =</span> aridity)) <span class="sc">+</span></span>
+<span id="cb228-2"><a href="#cb228-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb228-3"><a href="#cb228-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>() <span class="sc">+</span></span>
+<span id="cb228-4"><a href="#cb228-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>() <span class="sc">+</span></span>
+<span id="cb228-5"><a href="#cb228-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_linedraw</span>() <span class="sc">+</span></span>
+<span id="cb228-6"><a href="#cb228-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Observed vs Predicted Log Mean Streamflow"</span>, <span class="at">x =</span> <span class="st">"Log Observed Flow"</span>, <span class="at">y =</span> <span class="st">"Log Predicted Flow"</span>,</span>
+<span id="cb228-7"><a href="#cb228-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Aridity"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
