@@ -18,15 +18,15 @@ This website contains assignments completed for the CSU 523C course requirements
     
 - [Lab 2](lab-02.html)
 
-    - This week's lab focused on displaying U.S. population data based on the proximity the cities are to
-      international and national borders.
+    - This week's lab focused on displaying U.S. population data based on the proximity the cities are 
+      to international and national borders.
     
 - [Lab 3](lab-03.html)
 
     - This Lab focused on processing large-scale dam inventory data from across the United States. We 
       evaluated different tessellated surfaces to reveal how the data interpretation differed amongst         the methods.
       
-- Lab 4
+- [Lab 4](lab-04.html)
 
     - In Lab 4 we analyzed flood data near Palo, Iowa using different data visualization methods.
 
@@ -36,7 +36,8 @@ This website contains assignments completed for the CSU 523C course requirements
 
 - [Lab 6](lab-06.html)
 
-    - In this lab we evaluated and modeled streamflow along the Cache la Poudre River.
+    - In this lab we evaluated and modeled streamflow along the Cache la Poudre River in northern 
+      Colorado.
       
 ## Contact
 

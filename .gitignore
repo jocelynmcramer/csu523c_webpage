@@ -8,3 +8,11 @@
 
 /.quarto/
 **/*.quarto_ipynb
+data/landsat/ 
+_site/ 
+.quarto/ 
+lab-04_files/ 
+data/landsat-c2/ 
+data/landsat/ 
+data/landsat-c2/ 
+data/landsat/ 
